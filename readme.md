@@ -1,9 +1,8 @@
-<h1>Ola ésse é o meu primeiro projeto (mais para teste) com responsividade, logo abaixo o resultado<br>
+<h1 align="center">Ola ésse é o meu primeiro projeto (mais para teste) com responsividade, logo abaixo o resultado<br>
 <br>
-<center>
-<img src="./assets/images/result.png">
+<img align="center" src="./assets/images/result.png">
 <br>
-<h4><p>extenção <a href="https://marketplace.visualstudio.com/items?itemName=cirlorm.mobileview">MobileView</a>
+<h4 align="center"><p>extenção <a href="https://marketplace.visualstudio.com/items?itemName=cirlorm.mobileview">MobileView</a>
 </center>
 
 <h2>Projeto feito com <br>
