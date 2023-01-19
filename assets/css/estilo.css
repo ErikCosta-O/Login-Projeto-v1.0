@@ -73,7 +73,6 @@ button{
     box-shadow: 0.1em 0.1em #333;
     cursor: pointer;
     margin-top: 0px;
-    margin-left: 28%;
     height: 40px;
 }
 button:hover {
