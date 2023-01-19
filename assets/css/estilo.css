@@ -55,6 +55,7 @@ body{
 .btn{
     display: flex;
     justify-content: center;
+    width: 100%;
     position: relative;
     top: 60px;
 }
@@ -73,7 +74,6 @@ button{
     box-shadow: 0.1em 0.1em #333;
     cursor: pointer;
     margin-top: 0px;
-    margin-right: 20%;
     height: 40px;
 }
 button:hover {
