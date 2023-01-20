@@ -8,8 +8,23 @@
 body{
     background-color: #fffdf7;
 }
+.teste{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    text-align: center;
+}
+.imagem img{
+    width: 500px;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
 .container{
+    display: flex;
+    justify-content: center;
+    display: grid;
     margin-top: 5vh;
+    width: 100%;
 }
 .container .titulo{
     margin-top: 10px;
@@ -21,7 +36,7 @@ body{
     font-weight: 600;
 }
 .titulo .sub{
-    font-size: 15px;
+    font-size: 18px;
     text-decoration: underline solid #333;
 }
 .container .data input{
@@ -29,13 +44,12 @@ body{
     border-radius: 1vh;
     font-size: 18px;
     padding-left: 5px;
-    width: 90%;
+    width: 60vh;
     height: 30px;
     border: #cdd6dd solid 0.50vh;
     border-bottom: #fbc55f solid 0.50vh;
     border-right: #fbc55f solid 0.50vh;
 }
-
 .data input:focus{
     outline: 0;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
@@ -48,9 +62,11 @@ body{
 }
 .links .p1{
     margin-left: 5px;
+    font-size: 13px;
 }
 .links .p2{
     color: #8338ec;
+    font-size: 13px
 }
 .btn{
     display: flex;
@@ -88,31 +104,25 @@ button:active {
     color: #333;
     text-decoration: none;
 }
-@media screen and (max-width: 767px){
-    .teste{
-        display: flex;
-        justify-content: center;
-        display: grid;
-        text-align: center;
-    }
-    .imagem img{
-        width: 280px;
-        margin-top: 10vh;
-        margin-bottom: 5vh;
-    }
-    .container .data2{
-        display: flex;
-        margin-top: 10px;
-        padding-left: 10px;
-    }
-    .container .data2{
-        font-size: 11px;
-        color: #333;
-        font-weight: 700;
-    }
-    .links{
-        width: 90%;
-        display: flex;
-        justify-content: space-between;
-    }
+.teste{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    text-align: center;
+
+}
+.container .data2{
+    display: flex;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+.container .data2{
+    font-size: 11px;
+    color: #333;
+    font-weight: 700;
+}
+.links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
