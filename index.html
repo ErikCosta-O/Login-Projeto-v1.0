@@ -6,37 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/estilo.css">
     <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <link rel="stylesheet" href="./assets/css/load.css">
     <title>Responsive</title>
 </head>
-<body>
-    <div class="teste">
-        <div class="imagem">
-            <img src="./assets/images/logotipo_sem_ONG- sem fundo.png">
-        </div>
-        <div class="container">
-            <div class="titulo">
-                <p>Olá bem-vindo</p>
-                <p class="sub">insira Email e Senha</p>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+        <div class="teste">
+            <div class="imagem">
+                <img src="./assets/images/logotipo_sem_ONG- sem fundo.png">
             </div>
-            <form action="#">
-                <div class="data">
-                    <input type="email" placeholder="Email" required>
+            <div class="container">
+                <div class="titulo">
+                    <p>Olá bem-vindo</p>
+                    <p class="sub">insira Email e Senha</p>
                 </div>
-                <div class="data">
-                    <input type="password" placeholder="Senha" required>
-                </div>
-                <div class="data2">
-                    <input type="checkbox" required>
-                    <div class="links">
-                        <p class="p1">Remember me</p>
-                        <a href=""><p class="p2">Forgot Password?</p></a>
+                <form action="#">
+                    <div class="data">
+                        <input type="email" placeholder="Email" required>
                     </div>
+                    <div class="data">
+                        <input type="password" placeholder="Senha" required>
+                    </div>
+                    <div class="data2">
+                        <input type="checkbox" required>
+                        <div class="links">
+                            <p class="p1">Remember me</p>
+                            <a href=""><p class="p2">Forgot Password?</p></a>
+                        </div>
+                    </div>
+                </form>
+                <div class="btn">
+                    <button type="submit" id="entrar"><a href="https://github.com/ErikCosta-O">Entrar</a></button>
                 </div>
-            </form>
-            <div class="btn">
-                <button type="submit" id="entrar"><a href="https://github.com/ErikCosta-O">Entrar</a></button>
             </div>
         </div>
     </div>
+    <script src="./assets/js/load.js"></script>
 </body>
 </html>
