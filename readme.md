@@ -2,6 +2,7 @@
 <h2>Projeto feito com <br>
  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+ <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
  <hr>
   <a href="https://erikcosta-o.github.io/Login-Projeto-v1.0/"><h4 align="center">Link para ver projeto</h4></a>
 <p align="center"><img src="./assets/images/result.png" width="200px" ></p>
